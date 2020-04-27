@@ -7,7 +7,7 @@ covid = pd.read_csv('us.csv', parse_dates=['date'])
 
 # Creates the graphics that shows the data
 fig = plt.figure()
-ax = fig.add_subplot(1, 1, 1)
+ax = fig.add_subplot(2, 1, 1)
 
 ax.plot(covid['date'], covid['cases'], color='tab:green', label='Cases')
 ax.plot(covid['date'], covid['deaths'], color='tab:red', label='Deaths')
