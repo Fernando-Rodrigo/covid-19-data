@@ -134,7 +134,7 @@ Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 * Puerto Rico
 
-We are trying to resolve some inconsistencies with our Puerto Rico data. Starting April 21st, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. The territory's online dashboard has not yet been updated.
+On April 21st, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. 
 
 Additionally, from approximately April 12th through April 18th, the count of deaths for Puerto Rico include some probable Covid-19 related deaths that were not lab-confirmed. Starting April 19th these have been removed. We will revise the numbers for the 12th to 18th as possible.
 
@@ -142,7 +142,7 @@ Additionally, from approximately April 12th through April 18th, the count of dea
 
 * Colorado
 
-Numbers reflect the combined number of lab-confirmed and probable cases and deaths as reported by the state.
+Numbers reflect the combined number of lab-confirmed and probable cases and deaths as reported by the state. On April 25th, the state revised downward the number of deaths after removing "about 29 duplicates" from the number of "probable deaths" included in the total.
 
 * Idaho
 
@@ -150,7 +150,7 @@ The total cases number includes only lab-confirmed cases, but the deaths number 
 
 * Louisiana
 
-The total cases number includes only lab-confirmed cases, but the deaths number does include the deaths of probable Covid-19 cases. However, the state warns that the reporting of probable deaths could be delayed and come in batches.
+The total cases number and total deaths number include only lab-confirmed cases and deaths. The state appears to be reporting the deaths of probable Covid-19 cases separately from the total number of deaths statewide or in each parish but we are not yet including those cases in our numbers.
 
 * Ohio
 
