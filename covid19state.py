@@ -20,7 +20,19 @@ sum(covid.groupby("date").cases.sum().diff() < 0)
 # Data Analysis
 worst20 = covid.groupby("state").cases.sum().sort_values().tail(20).index.tolist()
 states = pd.DataFrame(covid[covid.state.isin(worst20)].groupby(["date", "state"]).cases.sum().reset_index())
-plt.figure(figsize=(15, 10))
+
+# Creates the graphics that shows the data
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1)
+
+#set ticks every week
+ax.xaxis.set_major_locator(mdates.DayLocator(interval=10))
+#set major ticks format
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %B'))
+
+ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
+
+# plt.figure(figsize=(15, 10))
 plt.xticks(rotation=45)
 sns.lineplot(data = states, x="date", y="cases", hue = "state", palette = "muted")
 
