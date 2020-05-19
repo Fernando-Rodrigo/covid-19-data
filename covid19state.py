@@ -32,8 +32,7 @@ ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %B'))
 
 ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
-# plt.figure(figsize=(15, 10))
-plt.xticks(rotation=45)
+ax.set_title('Number of cases per state in US')
 sns.lineplot(data = states, x="date", y="cases", hue = "state", palette = "muted")
 
 plt.show()
