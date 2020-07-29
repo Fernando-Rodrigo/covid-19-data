@@ -1,5 +1,7 @@
 # Coronavirus (Covid-19) Data in the United States
 
+**NEW:** We are publishing the data behind our [survey of mask usage](https://www.nytimes.com/interactive/2020/07/17/upshot/coronavirus-face-mask-map.html) in the United States in order to provide researchers a way to understand the role of mask wearing in the course of the pandemic. See the data and documentation in the [mask-use/](mask-use/) directory.
+
 **NEW:** We are publishing the data behind our [excess deaths tracker](https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html) in order to provide researchers and the public with a better record of the true toll of the pandemic. This data is compiled from official national and municipal data for 24 countries. See the data and documentation in the [excess-deaths/](excess-deaths/) directory.
 
 ---
@@ -245,9 +247,13 @@ From June 18 to 21, the Mississippi State Department of Health reported technica
 
 On June 16, Texas reported an additional 1,476 backlogged cases from prison inmates in Anderson and Brazoria counties.
 
+On July 27, state officials [changed](https://www.dshs.texas.gov/news/releases/2020/20200727.aspx) their methodology for reporting deaths to count deaths based on death certificates listing Covid-19. This change excludes deaths from people who tested positive but whose death certificate listed another cause of death, and includes people who died of Covid-19 without ever testing positive. In many counties this has led to a sudden change in the total number of deaths. Some counties continue to report deaths independently of the state and this data set uses those county counts if they are higher than the state's count for that county.
+
 * Washington
 
 On June 17, Washington began removing from their totals deaths where Covid-19 was not a factor, for instance homicides, overdoses, suicides and car accidents. Four deaths from King County and three from Yakima county that were due to homicide, suicide or overdose were removed.
+
+On July 24, the state began to report probable deaths for the first time and at the same time removed about 50 deaths of people who tested positive for Covid-19 but died of other causes.
 
 #### Probable Cases and Deaths
 
