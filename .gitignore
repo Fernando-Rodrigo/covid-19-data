@@ -1,1 +1,7 @@
+<<<<<<< HEAD
+.vscode
+.venv
+.idea
+=======
 .DS_Store
+>>>>>>> upstream/master
