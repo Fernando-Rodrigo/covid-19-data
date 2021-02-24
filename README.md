@@ -1,5 +1,9 @@
 # Coronavirus (Covid-19) Data in the United States
 
+**NEW:** As the [us-counties.csv](us-counties.csv) file has grown too large to open in Excel, we're providing a new [us-counties-recent.csv](us-counties-recent.csv) file that contains only the most recent 30 days of data for each county. It is otherwise identical. Both files will continue to be updated.
+
+**Change:** As of Feb. 10, 2021, we are changing how we report data for a few low-population Alaska geographies to better align with how the state reports data. Data for Bristol Bay Borough and Lake and Peninsula Borough are combined in a new area called "Bristol Bay plus Lake and Peninsula", and data for Yakutat City and Borough and Hoonah-Angoon Census Area are combined as "Yakutat plus Hoonah-Angoon". Many cases now assigned to those new geographies were previously reported as Unknown. The entire timeseries will be revised to use these new geographies.
+
 **NEW:** We are publishing the data behind our [survey of mask usage](https://www.nytimes.com/interactive/2020/07/17/upshot/coronavirus-face-mask-map.html) in the United States in order to provide researchers a way to understand the role of mask wearing in the course of the pandemic. See the data and documentation in the [mask-use/](mask-use/) directory.
 
 **NEW:** We are publishing the data behind our [excess deaths tracker](https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html) in order to provide researchers and the public with a better record of the true toll of the pandemic. This data is compiled from official national and municipal data for 24 countries. See the data and documentation in the [excess-deaths/](excess-deaths/) directory.
@@ -69,6 +73,8 @@ date,county,state,fips,cases,deaths
 ```
 
 In some cases, the geographies where cases are reported do not map to standard county boundaries. See the list of [geographic exceptions](#geographic-exceptions) for more detail on these.
+
+A smaller file with only the most recent 30 days of data is also available in the [us-counties-recent.csv](us-counties-recent.csv) file.  ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-recent.csv))
 
 ---
 
@@ -176,6 +182,12 @@ Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansa
 * Joplin, Mo.
 
 Starting June 25, cases and deaths for Joplin are reported separately from Jasper and Newton counties. The cases and deaths reported for those counties are only for the portions exclusive of Joplin. Joplin cases and deaths previously appeared in the counts for those counties or as Unknown.
+
+* Alaska
+
+Data for the Bristol Bay Borough and Lake and Peninsula Borough county equivalents are reported as a single "Bristol Bay plus Lake and Peninsula" area, and data for the Yakutat City and Borough and Hoonah-Angoon Census Area county equivalents are reported together as "Yakutat plus Hoonah-Angoon".
+
+We continue to report data for the Chugach and Copper River Census Areas together as the Valdez-Cordova Census Area even though the state began to report data for them separately in Feb. 2021.
 
 * Alameda County, Calif.
 
