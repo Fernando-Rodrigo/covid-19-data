@@ -26,7 +26,7 @@ fig = plt.figure()
 ax = fig.add_subplot(1, 1, 1)
 
 #set ticks every week
-ax.xaxis.set_major_locator(mdates.DayLocator(interval=10))
+ax.xaxis.set_major_locator(mdates.DayLocator(interval=40))
 #set major ticks format
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %B'))
 
