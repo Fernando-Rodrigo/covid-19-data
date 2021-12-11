@@ -38,7 +38,7 @@ Each row of data reports the cumulative number of coronavirus cases and deaths b
 
 We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported confirmed cases and deaths.
 
-State and county files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
+State and county files contain [FIPS codes](https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
 Download all the data or clone this repository by clicking the green "Clone or download" button above.
 
@@ -147,7 +147,7 @@ Probable deaths are deaths where Covid-19 is listed on the death certificate as 
 
 Deaths among probable cases tracked by a state or local health department where a death certificate has not yet been filed may also be counted as a probable death.
 
-For more on how states count confirmed and probable deaths, see this [article](https://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.htmlhttps://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.html).
+For more on how states count confirmed and probable deaths, see this [article](https://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.html).
 
 * Dates
 
