@@ -892,7 +892,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-06,,,Alaska,USA-02,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Illinois,USA-17,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Mississippi,USA-28,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
-2021-09-06,,,Tennessee,USA-47,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
+2021-09-06,,,Tennessee,USA-47,cases,,,16677,The daily count is artificially low because many jurisdictions did not announce new data on Labor Day. The average is adjusted on Sept. 6 and 7 to account for the holiday lag.
 2021-09-06,2021-09-07,,,USA,cases,,,0,The daily count is artificially low on Sept. 6 and high on Sept. 7 because many states and local jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Florida,USA-12,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Indiana,USA-18,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
@@ -911,6 +911,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-06,,,Nevada,USA-32,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Kansas,USA-20,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,New Mexico,USA-35,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
+2021-09-07,,,Tennessee,USA-47,cases,,,-16677,
 2021-09-10,2021-09-22,DeWitt,Texas,USA-48123,both,,,0,Officials are not regularly reporting case and death counts for DeWitt County.
 2021-09-11,,Coryell,Texas,USA-48099,cases,yes,,0,Texas removed many prison cases in Coryell County.
 2021-09-11,2021-09-13,Los Angeles,California,USA-06037,both,,,0,Los Angeles County announced data for several days on Sept. 13 after planned maintenance.
@@ -997,6 +998,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-24,,Bedford,Virginia,USA-51019,cases,yes,,0,Virginia removed many cases in Bedford County.
 2021-09-24,,Danville city,Virginia,USA-51590,cases,yes,,0,Virginia removed many cases in Danville.
 2021-09-27,,,Connecticut,USA-09,deaths,yes,,0,Connecticut added about 90 deaths that occurred out-of-state in previous months.
+2021-09-28,,,Nebraska,USA-31,deaths,yes,,0,"Nebraska began reporting probable deaths, resulting in a one-day increase in deaths."
 2021-10-06,,,Nevada,USA-32,cases,yes,yes,0,Nevada began reporting cases indentified through antigen testing.
 2021-10-10,,,,USA,deaths,,,-289,Arkansas added many deaths. The state indicated that many of the 289 deaths announced were from previous months.
 2021-10-10,,,Arkansas,USA-05,deaths,yes,yes,0,Arkansas added many deaths after reconciling records.
@@ -1017,7 +1019,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-10-18,,,Alaska,USA-02,both,,,0,"Alaska did not release new data for Alaska Day, a state holiday."
 2021-10-18,,Yellowstone,Montana,USA-30111,deaths,,,0,Yellowstone County added 29 deaths from earlier in September and October 2021 after reviewing records.
 2021-10-19,,,Alaska,USA-02,deaths,,,0,Alaska added many deaths after reviewing death certificates. Most of the deaths occurred in September and October 2021.
-2021-10-20,,,,USA,deaths,,,-1053,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
 2021-10-20,,,Oklahoma,USA-40,deaths,,yes,-1053,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
 2021-10-25,,,California,USA-06,both,,,0,California was unable to release new data because of issues related to the storm on Oct. 24. Some counties updated independently.
 2021-10-26,2021-11-01,,New Hampshire,USA-33,cases,yes,,0,New Hampshire reported many cases on Nov. 1 after the state was unable to report data regularly the week of Oct. 25 because of technical issues.
@@ -1176,7 +1177,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,,Washington,USA-53,deaths,,,0,Washington was unable to report new data because of technical issue. Some counties updated independently.
 2021-12-01,,,North Carolina,USA-37,cases,,,1975,"The Times began using state health department data for Wake County, resulting in a one-day decrease for the county."
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
-2021-12-06,,,Maryland,USA-24,both,yes,,0,Maryland is unable to report new cases and deaths because of a technical issue.
+2021-12-05,2021-12-19,,Maryland,USA-24,cases,yes,,0,Maryland was unable to report new cases data for more than two weeks. The state announced it was responding to a cyberattack that affected data systems.
+2021-12-05,2021-12-27,,Maryland,USA-24,deaths,yes,,0,Maryland was unable to report new deaths because of a technical issue.
+2021-12-06,2021-12-27,,Maryland,USA-24,both,,yes,0,Maryland was unable to report new county-level cases and deaths because of a technical issue.
 2021-12-06,2021-12-07,,Wisconsin,USA-55,both,,,0,Wisconsin was unable to report new cases and deaths because of a technical issue.
 2021-12-07,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin was unable to report new cases because of a technical issue. Some counties reported new data independently.
 2021-12-08,,Washington,Rhode Island,USA-44009,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
@@ -1185,7 +1188,243 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-08,,Kent,Rhode Island,USA-44003,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
 2021-12-08,,Bristol,Rhode Island,USA-44001,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
 2021-12-09,,,Tennessee,USA-47,both,,,0,Tennessee was unable to report new cases and deaths because of technical issues.
-2021-12-10,,,Texas,USA-48,cases,,,0,Texas added many cases from earlier in December that had not previously been reported because of a data processing issue.
+2021-12-10,,,Texas,USA-48,cases,yes,yes,0,Texas added many cases from earlier in December that had not previously been reported because of a data processing issue.
+2021-12-13,2021-12-20,Reynolds,Missouri,USA-29179,both,,,0,Reynolds County did not provide an update for the week of Dec. 13.
 2021-12-14,,,Alabama,USA-01,cases,,,-841,Alabama added a backlog of 841 cases from one lab.
 2021-12-14,,,Ohio,USA-39,cases,,,-1725,"Ohio added a backlog of about 1,725 cases dating back to September 2021."
 2021-12-14,,Suwannee,Florida,USA-12121,deaths,,,0,Florida added many deaths in Suwannee County.
+2021-12-16,,Saipan,Northern Mariana Islands,USA-69110,cases,yes,,0,"Northern Mariana Islands updated island-level data for the first time in a month, resulting in a one-day increase for Saipan."
+2021-12-20,,,Maryland,USA-24,cases,yes,,0,Maryland reported many cases on Dec. 20 after resolving technical issues that prevented the state from reporting updates for more than two weeks.
+2021-12-23,2021-12-24,,Mississippi,USA-28,both,,,0,Mississippi did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,,,Tennessee,USA-47,deaths,yes,yes,0,"Tennessee added about 2,000 deaths from previous months after reconciling records."
+2021-12-23,2021-12-24,,Indiana,USA-18,both,,,0,Indiana did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,2021-12-24,,North Carolina,USA-37,both,,,0,North Carolina did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,2021-12-24,,Kentucky,USA-21,both,,,0,Kentucky did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,,Reynolds,Missouri,USA-29179,cases,yes,,0,"The Times began using state health department data for Reynolds County after the county stopped releasing its own data, resulting in a one-day decrease in cases."
+2021-12-24,,,Wyoming,USA-56,both,,,0,Wyoming did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-25,,Maryland,USA-24,both,,,0,Maryland did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Michigan,USA-26,both,,,0,Michigan did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Washington,USA-53,both,,,0,Washington did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Connecticut,USA-09,both,,,0,Connecticut did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Louisiana,USA-22,both,,,0,Louisiana did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Alaska,USA-02,both,,,0,Alaska did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Illinois,USA-17,both,,,0,Illinois did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Tennessee,USA-47,both,,,0,Tennessee did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-26,,Texas,USA-48,both,,,0,Texas did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,South Carolina,USA-45,both,,,0,South Carolina did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Minnesota,USA-27,both,,,0,Minnesota did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Rhode Island,USA-44,both,,,0,Rhode Island did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,New Hampshire,USA-33,both,,,0,New Hampshire did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,South Dakota,USA-46,both,,,0,South Dakota did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-25,,Idaho,USA-16,both,,,0,Idaho did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Utah,USA-49,both,,,0,Utah did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-26,,Vermont,USA-50,both,,,0,Vermont did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Montana,USA-30,both,,,0,Montana did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Nebraska,USA-31,both,,,0,Nebraska did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Oregon,USA-41,both,,,0,Oregon did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-26,,West Virginia,USA-54,both,,,0,West Virginia did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Nevada,USA-32,both,,,0,Nevada did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Kansas,USA-20,both,,,0,Kansas did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,New Mexico,USA-35,both,,,0,New Mexico did not announce new cases and deaths for the Christmas holiday.
+2021-12-25,,,New York,USA-36,both,,,0,New York did not announce new cases and deaths for the Christmas holiday.
+2021-12-25,,,,USA,both,,,0,The daily count is artificially low on Dec. 25 because many states and local jurisdictions did not announce new data on Christmas.
+2021-12-25,,,Ohio,USA-39,both,,,0,Ohio did not announce new cases and deaths for the Christmas holiday.
+2021-12-25,,,Missouri,USA-29,both,,,0,Missouri did not announce new cases and deaths for the Christmas holiday.
+2021-12-28,,,Maryland,USA-24,deaths,yes,,0,Maryland reported many deaths from the previous month after resolving a technical issue.
+2021-12-28,,Allegany,Maryland,USA-24001,both,,,0,Maryland added many cases and deaths in Allegany County after resolving a technical issue.
+2021-12-28,,Anne Arundel,Maryland,USA-24003,both,,,0,Maryland added many cases and deaths in Anne Arundel County after resolving a technical issue.
+2021-12-28,,Baltimore,Maryland,USA-24005,both,,,0,Maryland added many cases and deaths in Baltimore County after resolving a technical issue.
+2021-12-28,,Baltimore city,Maryland,USA-24510,both,,,0,Maryland added many cases and deaths in Baltimore after resolving a technical issue.
+2021-12-28,,Calvert,Maryland,USA-24009,both,,,0,Maryland added many cases and deaths in Calvert County after resolving a technical issue.
+2021-12-28,,Caroline,Maryland,USA-24011,both,,,0,Maryland added many cases and deaths in Caroline County after resolving a technical issue.
+2021-12-28,,Carroll,Maryland,USA-24013,both,,,0,Maryland added many cases and deaths in Carroll County after resolving a technical issue.
+2021-12-28,,Cecil,Maryland,USA-24015,both,,,0,Maryland added many cases and deaths in Cecil County after resolving a technical issue.
+2021-12-28,,Charles,Maryland,USA-24017,both,,,0,Maryland added many cases and deaths in Charles County after resolving a technical issue.
+2021-12-28,,Dorchester,Maryland,USA-24019,both,,,0,Maryland added many cases and deaths in Dorchester County after resolving a technical issue.
+2021-12-28,,Frederick,Maryland,USA-24021,both,,,0,Maryland added many cases and deaths in Frederick County after resolving a technical issue.
+2021-12-28,,Garrett,Maryland,USA-24023,both,,,0,Maryland added many cases and deaths in Garrett County after resolving a technical issue.
+2021-12-28,,Harford,Maryland,USA-24025,both,,,0,Maryland added many cases and deaths in Harford County after resolving a technical issue.
+2021-12-28,,Howard,Maryland,USA-24027,both,,,0,Maryland added many cases and deaths in Howard County after resolving a technical issue.
+2021-12-28,,Kent,Maryland,USA-24029,both,,,0,Maryland added many cases and deaths in Kent County after resolving a technical issue.
+2021-12-28,,Montgomery,Maryland,USA-24031,both,,,0,Maryland added many cases and deaths in Montgomery County after resolving a technical issue.
+2021-12-28,,Prince George's,Maryland,USA-24033,both,,,0,Maryland added many cases and deaths in Prince George's County after resolving a technical issue.
+2021-12-28,,Queen Anne's,Maryland,USA-24035,both,,,0,Maryland added many cases and deaths in Queen Anne's County after resolving a technical issue.
+2021-12-28,,Somerset,Maryland,USA-24039,both,,,0,Maryland added many cases and deaths in Somerset County after resolving a technical issue.
+2021-12-28,,St. Mary's,Maryland,USA-24037,both,,,0,Maryland added many cases and deaths in St. Mary's County after resolving a technical issue.
+2021-12-28,,Talbot,Maryland,USA-24041,both,,,0,Maryland added many cases and deaths in Talbot County after resolving a technical issue.
+2021-12-28,,Washington,Maryland,USA-24043,both,,,0,Maryland added many cases and deaths in Washington County after resolving a technical issue.
+2021-12-28,,Wicomico,Maryland,USA-24045,both,,,0,Maryland added many cases and deaths in Wicomico County after resolving a technical issue.
+2021-12-28,,Worcester,Maryland,USA-24047,both,,,0,Maryland added many cases and deaths in Worcester County after resolving a technical issue.
+2021-12-31,,,Wyoming,USA-56,both,,,0,Wyoming did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,2022-01-01,,Maryland,USA-24,both,,,0,Maryland did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Michigan,USA-26,both,,,0,Michigan did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Washington,USA-53,both,,,0,Washington did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Connecticut,USA-09,both,,,0,Connecticut did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Louisiana,USA-22,both,,,0,Louisiana did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Alaska,USA-02,cases,,,0,Alaska did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Illinois,USA-17,both,,,0,Illinois did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Mississippi,USA-28,both,,,0,Mississippi did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Tennessee,USA-47,both,,,0,Tennessee did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,2022-01-02,,Texas,USA-48,both,,,0,Texas did not announce new cases and deaths for the New Year's holiday. Some counties reported data independently.
+2021-12-31,,,Indiana,USA-18,both,,,0,Indiana did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Minnesota,USA-27,both,,,0,Minnesota did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,2022-01-03,,Rhode Island,USA-44,both,,,0,Rhode Island did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,2022-01-02,,Missouri,USA-29,both,,,0,Missouri did not announce new cases and deaths for the New Year's holiday. Some counties reported data independently.
+2021-12-31,,,New Hampshire,USA-33,both,,,0,New Hampshire did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,South Dakota,USA-46,both,,,0,South Dakota did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Idaho,USA-16,both,,,0,Idaho did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Utah,USA-49,both,,,0,Utah did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,2022-01-02,,Vermont,USA-50,both,,,0,Vermont did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Montana,USA-30,both,,,0,Montana did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Nebraska,USA-31,both,,,0,Nebraska did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Oregon,USA-41,both,,,0,Oregon did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,2022-01-02,,West Virginia,USA-54,both,,,0,West Virginia did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Nevada,USA-32,both,,,0,Nevada did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,Kansas,USA-20,both,,,0,Kansas did not announce new cases and deaths for the New Year's holiday.
+2021-12-31,,,New Mexico,USA-35,both,,,0,New Mexico did not announce new cases and deaths for the New Year's holiday.
+2022-01-01,,,Puerto Rico,USA-72,both,,,0,Puerto Rico did not announce new cases and deaths on New Year's Day.
+2022-01-01,,,Alabama,USA-01,both,,,0,Alabama did not announce new data on New Year's Day because of technical issues.
+2022-01-01,,,Ohio,USA-39,both,,,0,Ohio did not announce new cases and deaths on New Year's Day.
+2022-01-01,,,Maine,USA-23,both,,,0,Maine did not announce new cases and deaths on New Year's Day.
+2022-01-03,,,Georgia,USA-13,both,,,0,Georgia was unable to announce new data because of technical issues.
+2022-01-03,,,South Carolina,USA-45,both,,,0,South Carolina did not announce new cases and deaths for the New Year's holiday.
+2022-01-05,,,Tennessee,USA-47,both,,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week.
+2022-01-05,,Washington,Tennessee,USA-47179,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Putnam,Tennessee,USA-47141,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Wilson,Tennessee,USA-47189,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Sumner,Tennessee,USA-47165,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Montgomery,Tennessee,USA-47125,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Maury,Tennessee,USA-47119,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Rutherford,Tennessee,USA-47149,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Blount,Tennessee,USA-47009,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Anderson,Tennessee,USA-47001,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Bedford,Tennessee,USA-47003,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Benton,Tennessee,USA-47005,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Bledsoe,Tennessee,USA-47007,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Bradley,Tennessee,USA-47011,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Campbell,Tennessee,USA-47013,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Cannon,Tennessee,USA-47015,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Carroll,Tennessee,USA-47017,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Carter,Tennessee,USA-47019,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Cheatham,Tennessee,USA-47021,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Chester,Tennessee,USA-47023,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Claiborne,Tennessee,USA-47025,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Clay,Tennessee,USA-47027,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Cocke,Tennessee,USA-47029,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Coffee,Tennessee,USA-47031,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Crockett,Tennessee,USA-47033,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Cumberland,Tennessee,USA-47035,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Decatur,Tennessee,USA-47039,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,DeKalb,Tennessee,USA-47041,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Dickson,Tennessee,USA-47043,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Dyer,Tennessee,USA-47045,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Fayette,Tennessee,USA-47047,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Fentress,Tennessee,USA-47049,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Franklin,Tennessee,USA-47051,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Gibson,Tennessee,USA-47053,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Giles,Tennessee,USA-47055,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Grainger,Tennessee,USA-47057,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Greene,Tennessee,USA-47059,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Grundy,Tennessee,USA-47061,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Hamblen,Tennessee,USA-47063,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Hancock,Tennessee,USA-47067,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Hardeman,Tennessee,USA-47069,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Hardin,Tennessee,USA-47071,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Hawkins,Tennessee,USA-47073,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Haywood,Tennessee,USA-47075,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Henderson,Tennessee,USA-47077,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Henry,Tennessee,USA-47079,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Hickman,Tennessee,USA-47081,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Houston,Tennessee,USA-47083,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Humphreys,Tennessee,USA-47085,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Jackson,Tennessee,USA-47087,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Jefferson,Tennessee,USA-47089,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Johnson,Tennessee,USA-47091,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Lake,Tennessee,USA-47095,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Lauderdale,Tennessee,USA-47097,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Lawrence,Tennessee,USA-47099,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Lewis,Tennessee,USA-47101,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Lincoln,Tennessee,USA-47103,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Loudon,Tennessee,USA-47105,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Macon,Tennessee,USA-47111,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Madison,Tennessee,USA-47113,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Marion,Tennessee,USA-47115,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Marshall,Tennessee,USA-47117,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,McMinn,Tennessee,USA-47107,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,McNairy,Tennessee,USA-47109,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Meigs,Tennessee,USA-47121,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Monroe,Tennessee,USA-47123,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Moore,Tennessee,USA-47127,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Morgan,Tennessee,USA-47129,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Obion,Tennessee,USA-47131,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Overton,Tennessee,USA-47133,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Perry,Tennessee,USA-47135,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Pickett,Tennessee,USA-47137,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Polk,Tennessee,USA-47139,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Rhea,Tennessee,USA-47143,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Roane,Tennessee,USA-47145,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Robertson,Tennessee,USA-47147,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Scott,Tennessee,USA-47151,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Sequatchie,Tennessee,USA-47153,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Sevier,Tennessee,USA-47155,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Smith,Tennessee,USA-47159,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Stewart,Tennessee,USA-47161,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Sullivan,Tennessee,USA-47163,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Tipton,Tennessee,USA-47167,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Trousdale,Tennessee,USA-47169,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Unicoi,Tennessee,USA-47171,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Union,Tennessee,USA-47173,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Van Buren,Tennessee,USA-47175,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Warren,Tennessee,USA-47177,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Wayne,Tennessee,USA-47181,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Weakley,Tennessee,USA-47183,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,White,Tennessee,USA-47185,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-05,,Williamson,Tennessee,USA-47187,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
+2022-01-06,2022-01-07,,Georgia,USA-13,both,,,0,Georgia was unable to report new cases and deaths because of technical issues.
+2022-01-10,2022-01-11,,Vermont,USA-50,both,,,0,Vermont was unable to report new cases and deaths because of technical issues.
+2022-01-10,2022-01-19,McCreary,Kentucky,USA-21147,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for McCreary County.
+2022-01-10,2022-01-17,Pulaski,Kentucky,USA-21199,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Pulaski County.
+2022-01-10,2022-01-22,Wayne,Kentucky,USA-21231,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Wayne County.
+2022-01-13,2022-01-14,,Alabama,USA-01,both,,,0,Alabama was unable to report new cases and deaths because of technical issues.
+2022-01-14,,,Texas,USA-48,cases,,yes,0,"Texas audited cases data from previous years, which added about 26,000 cases to the state total and resulted in one-day increases or decreases in cumulative cases for many counties."
+2022-01-14,,,Texas,USA-48,cases,,,-26236,"Texas audited cases data from previous years, which resulted in the state total increasing by 26,236 cases."
+2022-01-17,,,Wyoming,USA-56,both,,,0,Wyoming did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Michigan,USA-26,both,,,0,Michigan did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Washington,USA-53,both,,,0,Washington did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Massachusetts,USA-25,both,,,0,Massachusetts did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Louisiana,USA-22,both,,,0,Louisiana did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Alaska,USA-02,both,,,0,Alaska did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Illinois,USA-17,both,,,0,Illinois did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Wisconsin,USA-55,cases,,,0,"Wisconsin added many cases after resolving a backlog of testing results, particularly in Dane and Waukesha counties."
+2022-01-17,,,Mississippi,USA-28,both,,,0,Mississippi did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,South Carolina,USA-45,both,,,0,South Carolina did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,,USA,both,,,0,The daily count is artificially low on Jan. 17 because many states and local jurisdictions did not announce new data on the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Minnesota,USA-27,both,,,0,Minnesota did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,North Carolina,USA-37,both,,,0,North Carolina did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,New Hampshire,USA-33,both,,,0,New Hampshire did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,South Dakota,USA-46,both,,,0,South Dakota did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Idaho,USA-16,both,,,0,Idaho did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Kentucky,USA-21,both,,,0,Kentucky did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Utah,USA-49,both,,,0,Utah did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Vermont,USA-50,both,,,0,Vermont did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Montana,USA-30,both,,,0,Montana did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Oregon,USA-41,both,,,0,Oregon did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Nevada,USA-32,both,,,0,Nevada did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Kansas,USA-20,both,,,0,Kansas did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,New Mexico,USA-35,both,,,0,New Mexico did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,Dane,Wisconsin,USA-55025,cases,,,0,Wisconsin added many cases in Dane County after resolving a backlog of testing results.
+2022-01-17,,Waukesha,Wisconsin,USA-55133,cases,,,0,Wisconsin added many cases in Waukesha County after resolving a backlog of testing results.
+2022-01-24,,,North Dakota,USA-38,both,,,0,North Dakota was unable to report new cases and deaths because of technical issues.
+2022-01-24,2022-01-25,,South Carolina,USA-45,both,,,0,South Carolina was unable to report new cases and deaths because of technical issues.
+2022-01-25,2022-01-26,,Alabama,USA-01,both,,,0,Alabama was unable to report new cases and deaths because of technical issues.
+2022-01-25,,Douglas,Nevada,USA-32005,cases,yes,,0,"Nevada removed many cases in several counties, including Douglas County."
+2022-01-25,,Lyon,Nevada,USA-32019,cases,yes,,0,"Nevada removed many cases in several counties, including Lyon County."
+2022-01-25,,Storey,Nevada,USA-32029,cases,yes,,0,"Nevada removed many cases in several counties, including Storey County."
+2022-01-26,,,Washington,USA-53,cases,,,0,Washington added many cases after resolving a backlog of testing results.
+2022-01-26,,,Louisiana,USA-22,cases,yes,yes,0,"Louisiana added about 53,000 cases representing people who were infected more than once."
+2022-01-29,2022-01-30,,Arkansas,USA-05,both,,,0,Arkansas did not report new cases and deaths during data system maintenance.
+2022-01-31,,,Mississippi,USA-28,deaths,,,0,Mississippi added many deaths from earlier in January after reviewing records.
+2022-02-01,,King,Washington,USA-53033,both,,,0,King County was unable to report new cases and deaths because of technical issues.
+2022-02-04,,Whitman,Washington,USA-53075,cases,,,0,Washington removed many cases in Whitman County after adding many cases the previous week.
+2022-02-05,2022-02-06,,Alabama,USA-01,both,,,0,Alabama did not report new cases and deaths during data system maintenance.
+2022-02-08,,,Pennsylvania,USA-42,cases,,,0,"Pennsylvania removed more than 4,000 previously reported cases across many counties."
