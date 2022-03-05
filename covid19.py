@@ -1,3 +1,5 @@
+from tkinter import Label, font
+from tkinter.ttk import LabeledScale
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib as mpl
@@ -8,11 +10,12 @@ import pandas as pd
 covid = pd.read_csv('us.csv', parse_dates=['date'])
 covid.set_index('date', inplace=True)
 
-plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.family'] = 'sans'
+plt.rcParams['font.weight'] = 'semibold'
 plt.style.use('ggplot')
 
 # Creates the graphics that shows the data
-fig = plt.figure(figsize=(7, 7), constrained_layout=True)
+fig = plt.figure(figsize=(7, 7))
 ax = fig.add_subplot(1,1,1)
 
 ax.plot(covid['cases'], color='tab:green', label='Cases')
@@ -30,9 +33,9 @@ ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %B %Y'))
 ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
 #Sets x, y and title labels
-ax.set_xlabel('Date', fontsize = 10)
-ax.set_ylabel('Number of occurency', fontsize = 10)
-ax.set_title('Number of cases and deaths in US')
+ax.set_xlabel('Date', fontsize = 10, family='sans', weight='semibold')
+ax.set_ylabel('Number of occurency', fontsize = 10, family='sans', weight='semibold')
+ax.set_title('Number of cases and death in US')
 
 ax.grid(True)
 
