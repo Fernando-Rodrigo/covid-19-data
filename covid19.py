@@ -32,7 +32,7 @@ ax1.plot(covid['deaths'], color='tab:red', label='Deaths')
 #set ticks every week
 ax.xaxis.set_major_locator(mdates.DayLocator(interval=50))
 #set major ticks format
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %b %y'))
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %B %y'))
 
 ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
@@ -48,14 +48,12 @@ for label in ax.get_xticklabels(which='major'):
 ax1.set_title('Number of death in US')
 ax1.xaxis.set_major_locator(mdates.DayLocator(interval=50))
 ax1.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
-ax1.xaxis.set_major_formatter(mdates.DateFormatter('%d %b %y'))
+ax1.xaxis.set_major_formatter(mdates.DateFormatter('%d %B %y'))
 ax1.set_xlabel('Date', fontsize = 10, family='sans', weight='semibold')
 for label in ax1.get_xticklabels(which='major'):
     label.set(rotation=45, horizontalalignment='right')
 
 ax.grid(True)
 ax1.grid(True)
-
-#plt.xticks(rotation=50)
 
 plt.show()
