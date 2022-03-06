@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib as mpl
 import seaborn as sns
-import numpy as np
 import pandas as pd
 
 # Reads the csv file, where the data is saved
