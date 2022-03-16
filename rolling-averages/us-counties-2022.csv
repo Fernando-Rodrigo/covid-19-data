@@ -232909,6 +232909,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-03-13,USA-29005,Atchison,Missouri,0,1,19.44,0,0.14,2.78
 2022-03-13,USA-29003,Andrew,Missouri,0,0.86,4.84,0,0.14,0.81
 2022-03-13,USA-29001,Adair,Missouri,0,2.6,10.26,0,0,0
+2022-03-13,USA-28999,Unknown,Mississippi,0,84.86,,0,5.44,
 2022-03-13,USA-28163,Yazoo,Mississippi,0,1.57,5.29,0,0,0
 2022-03-13,USA-28161,Yalobusha,Mississippi,0,0,0,0,0,0
 2022-03-13,USA-28159,Winston,Mississippi,0,2.57,14.32,0,0,0
@@ -234936,7 +234937,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-03-14,USA-48361,Orange,Texas,0,0.75,0.9,0,0.75,0.9
 2022-03-14,USA-48359,Oldham,Texas,0,0.63,29.59,0,0,0
 2022-03-14,USA-48357,Ochiltree,Texas,0,11.88,120.73,0,0,0
-2022-03-14,USA-48355,Nueces,Texas,6786,1048.86,289.5,2,1.4,0.39
+2022-03-14,USA-48355,Nueces,Texas,266,117.43,32.41,2,1.4,0.39
 2022-03-14,USA-48353,Nolan,Texas,1,0.29,1.94,0,0.43,2.91
 2022-03-14,USA-48351,Newton,Texas,0,0.4,2.94,0,0,0
 2022-03-14,USA-48349,Navarro,Texas,0,6.14,12.26,0,0,0
@@ -235720,7 +235721,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-03-14,USA-37069,Franklin,North Carolina,17,10,14.35,0,0,0
 2022-03-14,USA-37067,Forsyth,North Carolina,63,30.57,8,4,1.14,0.3
 2022-03-14,USA-37065,Edgecombe,North Carolina,20,5.14,9.99,0,0,0
-2022-03-14,USA-37063,Durham,North Carolina,7,49,15.24,0,0,0
+2022-03-14,USA-37063,Durham,North Carolina,89,60.71,18.89,0,0,0
 2022-03-14,USA-37061,Duplin,North Carolina,6,7.29,12.4,0,0.17,0.28
 2022-03-14,USA-37059,Davie,North Carolina,5,2.29,5.33,1,0.14,0.33
 2022-03-14,USA-37057,Davidson,North Carolina,29,15,8.95,1,0.3,0.18
@@ -236160,6 +236161,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-03-14,USA-29005,Atchison,Missouri,3,0.78,15.12,0,0.14,2.78
 2022-03-14,USA-29003,Andrew,Missouri,19,3.29,18.55,0,0.14,0.81
 2022-03-14,USA-29001,Adair,Missouri,5,0.71,2.82,0,0,0
+2022-03-14,USA-28999,Unknown,Mississippi,-594,84.86,,-49,5.44,
 2022-03-14,USA-28163,Yazoo,Mississippi,4,0.57,1.92,1,0.14,0.48
 2022-03-14,USA-28161,Yalobusha,Mississippi,3,0.43,3.54,0,0,0
 2022-03-14,USA-28159,Winston,Mississippi,1,0.14,0.8,0,0,0
