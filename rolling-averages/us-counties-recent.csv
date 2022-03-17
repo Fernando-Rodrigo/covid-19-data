@@ -97330,7 +97330,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-03-15,USA-08039,Elbert,Colorado,3,1.29,4.81,0,0,0
 2022-03-15,USA-08041,El Paso,Colorado,157,106.71,14.81,2,0.88,0.12
 2022-03-15,USA-08037,Eagle,Colorado,2,3.71,6.74,0,0,0
-2022-03-15,USA-08035,Douglas,Colorado,0,44.43,12.65,0,0.4,0.11
+2022-03-15,USA-08035,Douglas,Colorado,42,45.86,13.06,1,0.17,0.05
 2022-03-15,USA-08033,Dolores,Colorado,-1,1.57,76.47,0,0,0
 2022-03-15,USA-08031,Denver,Colorado,143,111.14,15.28,0,0.57,0.08
 2022-03-15,USA-08029,Delta,Colorado,5,4.14,13.29,1,0.13,0.43
@@ -97346,9 +97346,9 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-03-15,USA-08011,Bent,Colorado,0,0.71,12.81,0,0,0
 2022-03-15,USA-08009,Baca,Colorado,0,1.13,31.42,0,0,0
 2022-03-15,USA-08007,Archuleta,Colorado,0,3.86,27.49,0,0.11,0.79
-2022-03-15,USA-08005,Arapahoe,Colorado,0,69,10.51,0,0.5,0.08
+2022-03-15,USA-08005,Arapahoe,Colorado,107,74.43,11.34,1,0.43,0.07
 2022-03-15,USA-08003,Alamosa,Colorado,6,5.43,33.44,0,0,0
-2022-03-15,USA-08001,Adams,Colorado,0,62,11.98,0,0.5,0.1
+2022-03-15,USA-08001,Adams,Colorado,100,64.29,12.42,2,0.6,0.12
 2022-03-15,USA-06115,Yuba,California,0,10.71,13.62,0,0.13,0.16
 2022-03-15,USA-06113,Yolo,California,40,23.86,10.82,0,0.43,0.19
 2022-03-15,USA-06111,Ventura,California,27,57.29,6.77,0,2.33,0.28
