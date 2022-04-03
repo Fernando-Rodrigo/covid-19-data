@@ -95842,7 +95842,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-04-01,USA-34005,Burlington,New Jersey,44,41.14,9.24,2,0.3,0.07
 2022-04-01,USA-34003,Bergen,New Jersey,206,166.86,17.9,1,0.44,0.05
 2022-04-01,USA-34001,Atlantic,New Jersey,14,14.14,5.36,0,0.14,0.05
-2022-04-01,USA-33999,Unknown,New Hampshire,0,5.86,,0,0.1,
+2022-04-01,USA-33999,Unknown,New Hampshire,137,22.25,,0,0.1,
 2022-04-01,USA-33019,Sullivan,New Hampshire,0,4.29,9.93,0,0,0
 2022-04-01,USA-33017,Strafford,New Hampshire,0,29.57,22.64,0,0,0
 2022-04-01,USA-33015,Rockingham,New Hampshire,0,43.29,13.97,0,0.5,0.16
@@ -97327,67 +97327,67 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-04-01,USA-09005,Litchfield,Connecticut,16,17.14,9.51,0,0.25,0.14
 2022-04-01,USA-09003,Hartford,Connecticut,86,91.29,10.24,0,0.71,0.08
 2022-04-01,USA-09001,Fairfield,Connecticut,162,161.57,17.13,0,1,0.11
-2022-04-01,USA-08125,Yuma,Colorado,0,0.38,3.74,0,0,0
+2022-04-01,USA-08125,Yuma,Colorado,2,0.56,5.55,0,0,0
 2022-04-01,USA-08123,Weld,Colorado,214,74.71,23.03,0,0.36,0.11
-2022-04-01,USA-08121,Washington,Colorado,0,0.29,5.82,0,0,0
-2022-04-01,USA-08119,Teller,Colorado,0,2.63,10.34,0,0,0
-2022-04-01,USA-08117,Summit,Colorado,0,4.71,15.2,0,0,0
+2022-04-01,USA-08121,Washington,Colorado,1,0.29,5.82,0,0,0
+2022-04-01,USA-08119,Teller,Colorado,5,2.86,11.25,0,0,0
+2022-04-01,USA-08117,Summit,Colorado,6,5,16.12,0,0,0
 2022-04-01,USA-08115,Sedgwick,Colorado,0,0.25,11.12,0,0,0
 2022-04-01,USA-08113,San Miguel,Colorado,0,2.43,29.69,0,0,0
-2022-04-01,USA-08111,San Juan,Colorado,0,0.33,45.79,0,0,0
+2022-04-01,USA-08111,San Juan,Colorado,2,0.29,39.25,0,0,0
 2022-04-01,USA-08109,Saguache,Colorado,0,1.29,18.84,0,0,0
-2022-04-01,USA-08107,Routt,Colorado,0,5,19.5,0,0,0
+2022-04-01,USA-08107,Routt,Colorado,7,4.71,18.39,1,0.11,0.43
 2022-04-01,USA-08105,Rio Grande,Colorado,0,1.57,13.95,0,0,0
-2022-04-01,USA-08103,Rio Blanco,Colorado,0,0.56,8.78,0,0,0
-2022-04-01,USA-08101,Pueblo,Colorado,0,38,22.56,0,0.08,0.05
-2022-04-01,USA-08099,Prowers,Colorado,0,1,8.22,0,0,0
+2022-04-01,USA-08103,Rio Blanco,Colorado,2,0.5,7.91,0,0,0
+2022-04-01,USA-08101,Pueblo,Colorado,93,43.14,25.62,0,0.08,0.05
+2022-04-01,USA-08099,Prowers,Colorado,2,1.14,9.39,0,0,0
 2022-04-01,USA-08097,Pitkin,Colorado,0,9.14,51.46,0,0,0
 2022-04-01,USA-08095,Phillips,Colorado,0,0.6,14.07,0,0,0
 2022-04-01,USA-08093,Park,Colorado,0,3.14,16.68,0,0,0
-2022-04-01,USA-08091,Ouray,Colorado,0,0.43,8.65,0,0,0
-2022-04-01,USA-08089,Otero,Colorado,0,3.29,17.98,0,0,0
-2022-04-01,USA-08087,Morgan,Colorado,0,6.86,23.59,0,0.14,0.49
-2022-04-01,USA-08085,Montrose,Colorado,0,4.14,9.69,0,0,0
+2022-04-01,USA-08091,Ouray,Colorado,2,0.43,8.65,0,0,0
+2022-04-01,USA-08089,Otero,Colorado,4,3.29,17.98,0,0,0
+2022-04-01,USA-08087,Morgan,Colorado,2,5.86,20.15,0,0.14,0.49
+2022-04-01,USA-08085,Montrose,Colorado,3,4,9.35,0,0,0
 2022-04-01,USA-08083,Montezuma,Colorado,0,2.57,9.82,0,0.36,1.39
 2022-04-01,USA-08081,Moffat,Colorado,0,1.57,11.83,0,0,0
-2022-04-01,USA-08079,Mineral,Colorado,0,0.12,15.3,0,0,0
-2022-04-01,USA-08077,Mesa,Colorado,0,25,16.21,0,0.18,0.11
-2022-04-01,USA-08075,Logan,Colorado,0,9.43,42.07,0,0.11,0.5
+2022-04-01,USA-08079,Mineral,Colorado,1,0.14,18.58,0,0,0
+2022-04-01,USA-08077,Mesa,Colorado,44,18.43,11.95,0,0.18,0.11
+2022-04-01,USA-08075,Logan,Colorado,16,5.14,22.95,0,0.11,0.5
 2022-04-01,USA-08073,Lincoln,Colorado,0,8.71,152.86,0,0,0
 2022-04-01,USA-08071,Las Animas,Colorado,0,1.43,9.85,0,0,0
-2022-04-01,USA-08069,Larimer,Colorado,0,116.57,32.66,0,1.55,0.43
+2022-04-01,USA-08069,Larimer,Colorado,106,109.57,30.7,0,1.55,0.43
 2022-04-01,USA-08065,Lake,Colorado,0,0.75,9.23,0,0,0
-2022-04-01,USA-08067,La Plata,Colorado,0,8.29,14.74,0,0,0
+2022-04-01,USA-08067,La Plata,Colorado,6,8.71,15.5,0,0,0
 2022-04-01,USA-08063,Kit Carson,Colorado,0,1,14.09,0,0,0
-2022-04-01,USA-08061,Kiowa,Colorado,0,0.14,10.16,0,0,0
-2022-04-01,USA-08059,Jefferson,Colorado,0,116.29,19.95,0,0.86,0.15
+2022-04-01,USA-08061,Kiowa,Colorado,2,0.18,12.93,0,0,0
+2022-04-01,USA-08059,Jefferson,Colorado,144,101,17.33,0,0.86,0.15
 2022-04-01,USA-08057,Jackson,Colorado,0,0,0,0,0,0
-2022-04-01,USA-08055,Huerfano,Colorado,0,0.88,12.69,0,0,0
+2022-04-01,USA-08055,Huerfano,Colorado,1,0.86,12.43,0,0,0
 2022-04-01,USA-08053,Hinsdale,Colorado,0,0,0,0,0,0
-2022-04-01,USA-08051,Gunnison,Colorado,0,1.57,9,0,0,0
+2022-04-01,USA-08051,Gunnison,Colorado,1,1.29,7.36,0,0,0
 2022-04-01,USA-08049,Grand,Colorado,0,4.14,26.33,0,0.2,1.27
-2022-04-01,USA-08047,Gilpin,Colorado,0,1.25,20.02,0,0,0
-2022-04-01,USA-08045,Garfield,Colorado,0,13.14,21.88,0,0.07,0.12
-2022-04-01,USA-08043,Fremont,Colorado,0,9.71,20.31,0,0.14,0.3
-2022-04-01,USA-08039,Elbert,Colorado,0,2.71,10.15,0,0,0
-2022-04-01,USA-08041,El Paso,Colorado,0,150.29,20.86,0,0.7,0.1
+2022-04-01,USA-08047,Gilpin,Colorado,3,1.14,18.31,0,0,0
+2022-04-01,USA-08045,Garfield,Colorado,5,11.43,19.03,0,0.07,0.12
+2022-04-01,USA-08043,Fremont,Colorado,7,6.29,13.14,0,0.14,0.3
+2022-04-01,USA-08039,Elbert,Colorado,5,3.29,12.29,0,0,0
+2022-04-01,USA-08041,El Paso,Colorado,243,151.71,21.06,0,0.7,0.1
 2022-04-01,USA-08037,Eagle,Colorado,0,9.43,17.1,0,0,0
 2022-04-01,USA-08035,Douglas,Colorado,0,23,6.55,0,0,0
-2022-04-01,USA-08033,Dolores,Colorado,0,0.6,29.2,0,0,0
-2022-04-01,USA-08031,Denver,Colorado,0,150.86,20.74,0,0.38,0.05
+2022-04-01,USA-08033,Dolores,Colorado,2,1,48.66,0,0,0
+2022-04-01,USA-08031,Denver,Colorado,170,126,17.33,0,0.38,0.05
 2022-04-01,USA-08029,Delta,Colorado,0,4.14,13.29,0,0,0
 2022-04-01,USA-08027,Custer,Colorado,0,0.38,7.4,0,0,0
-2022-04-01,USA-08025,Crowley,Colorado,0,11.43,188.56,0,0,0
+2022-04-01,USA-08025,Crowley,Colorado,59,19.71,325.26,0,0,0
 2022-04-01,USA-08023,Costilla,Colorado,0,1,25.73,0,0.14,3.68
 2022-04-01,USA-08021,Conejos,Colorado,0,1.14,13.93,0,0.14,1.74
-2022-04-01,USA-08019,Clear Creek,Colorado,0,2.29,23.56,0,0.14,1.47
+2022-04-01,USA-08019,Clear Creek,Colorado,2,2.14,22.09,0,0.14,1.47
 2022-04-01,USA-08017,Cheyenne,Colorado,0,0,0,0,0,0
-2022-04-01,USA-08015,Chaffee,Colorado,0,9.86,48.42,0,0.13,0.61
-2022-04-01,USA-08014,Broomfield,Colorado,0,12.43,17.64,0,0,0
+2022-04-01,USA-08015,Chaffee,Colorado,10,10.14,49.83,0,0.13,0.61
+2022-04-01,USA-08014,Broomfield,Colorado,18,11.57,16.42,0,0,0
 2022-04-01,USA-08013,Boulder,Colorado,89,106.43,32.63,0,0.45,0.14
-2022-04-01,USA-08011,Bent,Colorado,0,1.14,20.49,0,0,0
+2022-04-01,USA-08011,Bent,Colorado,4,1.57,28.18,0,0,0
 2022-04-01,USA-08009,Baca,Colorado,0,0.71,19.95,0,0,0
-2022-04-01,USA-08007,Archuleta,Colorado,0,2.29,16.29,0,0,0
+2022-04-01,USA-08007,Archuleta,Colorado,1,2,14.26,0,0,0
 2022-04-01,USA-08005,Arapahoe,Colorado,0,28.86,4.4,0,0,0
 2022-04-01,USA-08003,Alamosa,Colorado,0,2.13,13.09,0,0.08,0.51
 2022-04-01,USA-08001,Adams,Colorado,0,23.57,4.56,0,0,0
@@ -97568,73 +97568,73 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-04-01,USA-02020,Anchorage,Alaska,167,68.57,23.81,0,0.43,0.15
 2022-04-01,USA-02016,Aleutians West Census Area,Alaska,0,0.14,2.54,0,0,0
 2022-04-01,USA-02013,Aleutians East Borough,Alaska,7,1,29.97,0,0,0
-2022-04-01,USA-01133,Winston,Alabama,0,0.4,1.69,0,0.13,0.53
-2022-04-01,USA-01131,Wilcox,Alabama,0,0.42,4.02,0,0.14,1.38
+2022-04-01,USA-01133,Winston,Alabama,2,0.71,3.02,0,0.13,0.53
+2022-04-01,USA-01131,Wilcox,Alabama,3,0.86,8.26,0,0.14,1.38
 2022-04-01,USA-01129,Washington,Alabama,0,0.75,4.59,0,0.09,0.56
-2022-04-01,USA-01127,Walker,Alabama,0,8.43,13.27,0,0.71,1.12
-2022-04-01,USA-01125,Tuscaloosa,Alabama,0,18.43,8.8,0,0.86,0.41
-2022-04-01,USA-01123,Tallapoosa,Alabama,0,0.86,2.12,0,0.13,0.31
-2022-04-01,USA-01121,Talladega,Alabama,0,2.86,3.57,0,0.14,0.18
-2022-04-01,USA-01119,Sumter,Alabama,0,0.71,5.75,0,0.14,1.15
-2022-04-01,USA-01115,St. Clair,Alabama,0,1.86,2.07,0,0.2,0.22
-2022-04-01,USA-01117,Shelby,Alabama,0,17,7.81,0,0.71,0.33
-2022-04-01,USA-01113,Russell,Alabama,0,1.86,3.2,0,0.17,0.29
-2022-04-01,USA-01111,Randolph,Alabama,0,2,8.8,0,0,0
+2022-04-01,USA-01127,Walker,Alabama,6,8.86,13.94,0,0.71,1.12
+2022-04-01,USA-01125,Tuscaloosa,Alabama,2,14.86,7.1,4,0.89,0.42
+2022-04-01,USA-01123,Tallapoosa,Alabama,1,0.86,2.12,0,0.13,0.31
+2022-04-01,USA-01121,Talladega,Alabama,1,2.43,3.04,0,0.14,0.18
+2022-04-01,USA-01119,Sumter,Alabama,0,0.71,5.75,1,0.29,2.3
+2022-04-01,USA-01115,St. Clair,Alabama,1,1.71,1.92,0,0.2,0.22
+2022-04-01,USA-01117,Shelby,Alabama,12,17.29,7.94,2,0.57,0.26
+2022-04-01,USA-01113,Russell,Alabama,1,1.57,2.71,1,0.2,0.35
+2022-04-01,USA-01111,Randolph,Alabama,1,0.13,0.55,0,0,0
 2022-04-01,USA-01109,Pike,Alabama,0,4.75,14.34,0,0.25,0.75
 2022-04-01,USA-01107,Pickens,Alabama,0,1.38,6.9,0,0,0
 2022-04-01,USA-01105,Perry,Alabama,0,0.13,1.4,0,0.14,1.6
-2022-04-01,USA-01103,Morgan,Alabama,0,4,3.34,0,0.43,0.36
-2022-04-01,USA-01101,Montgomery,Alabama,0,6.14,2.71,0,0.57,0.25
+2022-04-01,USA-01103,Morgan,Alabama,4,3.29,2.75,2,0.43,0.36
+2022-04-01,USA-01101,Montgomery,Alabama,8,7,3.09,1,0.29,0.13
 2022-04-01,USA-01099,Monroe,Alabama,0,0.29,1.38,0,0,0
-2022-04-01,USA-01097,Mobile,Alabama,0,9.43,2.28,0,1.57,0.38
-2022-04-01,USA-01095,Marshall,Alabama,0,1.63,1.68,0,0.14,0.15
+2022-04-01,USA-01097,Mobile,Alabama,2,8.57,2.07,3,1.75,0.42
+2022-04-01,USA-01095,Marshall,Alabama,3,1.78,1.84,0,0.14,0.15
 2022-04-01,USA-01093,Marion,Alabama,0,4.89,16.46,0,0.33,1.12
-2022-04-01,USA-01091,Marengo,Alabama,0,1.14,6.06,0,0.18,0.96
-2022-04-01,USA-01089,Madison,Alabama,0,13.29,3.56,0,1.14,0.31
+2022-04-01,USA-01091,Marengo,Alabama,1,1.14,6.06,0,0.18,0.96
+2022-04-01,USA-01089,Madison,Alabama,5,13.29,3.56,2,0.57,0.15
 2022-04-01,USA-01087,Macon,Alabama,0,2.29,12.65,0,0.14,0.79
 2022-04-01,USA-01085,Lowndes,Alabama,0,0.63,6.43,0,0,0
-2022-04-01,USA-01083,Limestone,Alabama,0,3.14,3.18,0,0.57,0.58
-2022-04-01,USA-01081,Lee,Alabama,0,2.29,1.39,0,0.38,0.23
-2022-04-01,USA-01079,Lawrence,Alabama,0,2.14,6.51,0,0,0
-2022-04-01,USA-01077,Lauderdale,Alabama,0,2.86,3.08,0,0.43,0.46
+2022-04-01,USA-01083,Limestone,Alabama,6,3.14,3.18,0,0.57,0.58
+2022-04-01,USA-01081,Lee,Alabama,1,2.14,1.3,0,0.38,0.23
+2022-04-01,USA-01079,Lawrence,Alabama,3,1.71,5.21,0,0,0
+2022-04-01,USA-01077,Lauderdale,Alabama,1,2.43,2.62,0,0.43,0.46
 2022-04-01,USA-01075,Lamar,Alabama,0,1.5,10.87,0,0,0
-2022-04-01,USA-01073,Jefferson,Alabama,0,16.14,2.45,0,2.57,0.39
-2022-04-01,USA-01071,Jackson,Alabama,0,1.14,2.21,0,0.21,0.42
-2022-04-01,USA-01069,Houston,Alabama,0,1.71,1.62,0,0.5,0.47
+2022-04-01,USA-01073,Jefferson,Alabama,10,17,2.58,0,2.57,0.39
+2022-04-01,USA-01071,Jackson,Alabama,1,1,1.94,0,0.21,0.42
+2022-04-01,USA-01069,Houston,Alabama,4,1.43,1.35,1,0.43,0.4
 2022-04-01,USA-01067,Henry,Alabama,0,12.2,70.91,0,0.17,0.97
 2022-04-01,USA-01065,Hale,Alabama,0,2,13.65,0,0.14,0.98
 2022-04-01,USA-01063,Greene,Alabama,0,0.45,5.6,0,0,0
 2022-04-01,USA-01061,Geneva,Alabama,0,8.88,33.78,0,0.33,1.27
 2022-04-01,USA-01059,Franklin,Alabama,0,0.71,2.28,0,0,0
 2022-04-01,USA-01057,Fayette,Alabama,0,0.57,3.51,0,0.25,1.53
-2022-04-01,USA-01055,Etowah,Alabama,0,0.71,0.7,0,0.43,0.42
-2022-04-01,USA-01053,Escambia,Alabama,0,1,2.73,0,0.18,0.5
-2022-04-01,USA-01051,Elmore,Alabama,0,10.86,13.37,0,0.29,0.35
-2022-04-01,USA-01049,DeKalb,Alabama,0,0.86,1.2,0,0.38,0.52
-2022-04-01,USA-01047,Dallas,Alabama,0,0.86,2.3,0,0.2,0.54
-2022-04-01,USA-01045,Dale,Alabama,0,6.86,13.95,0,0.25,0.51
-2022-04-01,USA-01043,Cullman,Alabama,0,1.57,1.88,0,0.71,0.85
+2022-04-01,USA-01055,Etowah,Alabama,1,0.67,0.65,1,0.43,0.42
+2022-04-01,USA-01053,Escambia,Alabama,-1,1,2.73,0,0.18,0.5
+2022-04-01,USA-01051,Elmore,Alabama,27,14,17.24,0,0.29,0.35
+2022-04-01,USA-01049,DeKalb,Alabama,4,1.29,1.8,0,0.38,0.52
+2022-04-01,USA-01047,Dallas,Alabama,1,0.86,2.3,0,0.2,0.54
+2022-04-01,USA-01045,Dale,Alabama,0,6.86,13.95,1,0.1,0.2
+2022-04-01,USA-01043,Cullman,Alabama,1,0.57,0.68,0,0.71,0.85
 2022-04-01,USA-01041,Crenshaw,Alabama,0,1.08,7.87,0,0.25,1.82
 2022-04-01,USA-01039,Covington,Alabama,0,3.71,10.03,0,0.43,1.16
-2022-04-01,USA-01037,Coosa,Alabama,0,0.88,8.21,0,0,0
+2022-04-01,USA-01037,Coosa,Alabama,1,0.5,4.69,0,0,0
 2022-04-01,USA-01035,Conecuh,Alabama,0,0.43,3.55,0,0.18,1.51
-2022-04-01,USA-01033,Colbert,Alabama,0,2.71,4.91,0,0.5,0.91
+2022-04-01,USA-01033,Colbert,Alabama,5,3,5.43,2,0.29,0.52
 2022-04-01,USA-01031,Coffee,Alabama,0,1.57,3,0,0.08,0.16
-2022-04-01,USA-01029,Cleburne,Alabama,0,0.2,1.34,0,0,0
+2022-04-01,USA-01029,Cleburne,Alabama,-1,0.2,1.34,0,0,0
 2022-04-01,USA-01027,Clay,Alabama,0,1,7.56,0,0,0
-2022-04-01,USA-01025,Clarke,Alabama,0,2.14,9.07,0,0.14,0.6
+2022-04-01,USA-01025,Clarke,Alabama,14,3.71,15.72,0,0.14,0.6
 2022-04-01,USA-01023,Choctaw,Alabama,0,0.22,1.77,0,0,0
 2022-04-01,USA-01021,Chilton,Alabama,0,7.57,17.04,0,0.25,0.56
-2022-04-01,USA-01019,Cherokee,Alabama,0,0.55,2.08,0,0.31,1.17
+2022-04-01,USA-01019,Cherokee,Alabama,-2,0.55,2.08,0,0.31,1.17
 2022-04-01,USA-01017,Chambers,Alabama,0,0.63,1.88,0,0.2,0.6
-2022-04-01,USA-01015,Calhoun,Alabama,0,1.43,1.26,0,0.75,0.66
+2022-04-01,USA-01015,Calhoun,Alabama,2,1.57,1.38,1,0.57,0.5
 2022-04-01,USA-01013,Butler,Alabama,0,0.5,2.57,0,0.2,1.03
 2022-04-01,USA-01011,Bullock,Alabama,0,2,19.8,0,0,0
-2022-04-01,USA-01009,Blount,Alabama,0,0.86,1.48,0,0.55,0.94
-2022-04-01,USA-01007,Bibb,Alabama,0,0.71,3.19,0,0.08,0.37
+2022-04-01,USA-01009,Blount,Alabama,1,0.71,1.24,1,0.57,0.99
+2022-04-01,USA-01007,Bibb,Alabama,-1,0.71,3.19,0,0.08,0.37
 2022-04-01,USA-01005,Barbour,Alabama,0,1.14,4.63,0,0.43,1.74
-2022-04-01,USA-01003,Baldwin,Alabama,0,7,3.14,0,0.43,0.19
-2022-04-01,USA-01001,Autauga,Alabama,0,6.86,12.27,0,0.2,0.36
+2022-04-01,USA-01003,Baldwin,Alabama,6,6.71,3.01,0,0.43,0.19
+2022-04-01,USA-01001,Autauga,Alabama,4,6.86,12.27,0,0.2,0.36
 2022-04-01,USA-60999,Unknown,American Samoa,0,260.57,,0,0,
 2022-04-01,USA-69120,Tinian,Northern Mariana Islands,108,15.43,491.98,0,0,0
 2022-04-01,USA-69110,Saipan,Northern Mariana Islands,1089,155.57,322.63,3,0.43,0.89
