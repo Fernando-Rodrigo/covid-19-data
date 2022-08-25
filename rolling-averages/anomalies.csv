@@ -1655,6 +1655,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-27,,,Hawaii,USA-15,cases,,,0,Hawaii added a backlog of cases primarily from earlier in April 2022.
 2022-04-28,,,Vermont,USA-50,cases,,yes,0,"Vermont reassigned the county designations of many cases, resulting in one-day increases in some counties and decreases in others."
 2022-05-03,2022-05-04,,Colorado,USA-08,deaths,yes,yes,0,Colorado added many deaths.
+2022-05-04,,,Washington,USA-53,cases,yes,yes,0,"Washington removed and reallocated many cases, resulting in a one-day decrease in cumulative cases."
 2022-05-04,,,North Carolina,USA-37,deaths,yes,,0,North Carolina added many deaths that occurred between January and March 2022. 
 2022-05-05,,,Missouri,USA-29,both,yes,yes,0,Missouri resumed reporting cumulative cases and deaths on its state dashboard. 
 2022-05-05,,Buchanan,Missouri,USA-29021,cases,yes,,0,"The Times began using state data for Buchanan County after the county stopped reporting updates, resulting in a one-day decrease in cases."
@@ -1672,3 +1673,25 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-06-10,,Hays,Texas,USA-48209,both,yes,,0,"Hays County added about 1,300 older cases after reviewing records."
 2022-06-22,,,North Carolina,USA-37,cases,,,0,"North Carolina removed about 4,000 cases identified from home tests, which are not included in the state's case count."
 2022-06-23,,,Colorado,USA-08,cases,yes,yes,0,Colorado added many older cases.
+2022-06-30,2022-07-21,Siskiyou,California,USA-06093,both,yes,,0,Siskiyou County stopped regularly reporting cumulative cases.
+2022-06-30,2022-07-21,Yuba,California,USA-06115,both,yes,,0,Yuba County stopped regularly reporting cumulative cases.
+2022-07-01,2022-07-15,Wichita,Texas,USA-48485,both,yes,,0,Wichita County did not update its count of cumulative cases for several weeks in July.
+2022-07-06,,,Arizona,USA-04,cases,,,-3500,"Arizona added a backlog of about 3,500 older cases, primarily in Apache County."
+2022-07-06,,Apache,Arizona,USA-04001,cases,yes,,0,"Arizona added a backlog of about 3,500 older cases, primarily in Apache County."
+2022-07-07,,,Colorado,USA-08,cases,yes,yes,0,Colorado added many older cases.
+2022-07-21,,,Colorado,USA-08,cases,yes,yes,0,Colorado added many older cases.
+2022-07-27,,,Nevada,USA-32,cases,yes,,0,"Nevada added many cases, primarily in Clark County."
+2022-07-27,,Clark,Nevada,USA-32003,cases,yes,,0,"Nevada added many cases, primarily in Clark County."
+2022-08-02,,,South Carolina,USA-45,both,,,0,South Carolina announced that its weekly update would be delayed.
+2022-08-04,,,Colorado,USA-08,cases,,,0,Colorado added many older cases.
+2022-08-05,,Cook,Illinois,USA-17031,deaths,yes,,0,Many deaths from recent weeks were added in Cook County.
+2022-08-11,,Buena Vista city,Virginia,USA-51530,cases,yes,,0,Virginia reallocated many cases from the city of Buena Vista into Rockbridge County.
+2022-08-11,,Rockbridge,Virginia,USA-51163,cases,yes,,0,Virginia reallocated many cases from the city of Buena Vista into Rockbridge County.
+2022-08-15,2022-08-18,Rockbridge,Virginia,USA-51163,cases,yes,,0,Virginia removed many cases in the city of Lexington and added many cases in Rockbridge County.
+2022-08-15,2022-08-18,Lexington city,Virginia,USA-51678,cases,yes,,0,Virginia removed many cases in the city of Lexington and added many cases in Rockbridge County.
+2022-08-16,2022-08-18,Waynesboro city,Virginia,USA-51820,cases,yes,,0,Virginia removed many cases in the city of Waynesboro and added many cases in Augusta County.
+2022-08-16,2022-08-18,Augusta,Virginia,USA-51015,cases,yes,,0,Virginia removed many cases in the city of Waynesboro and added many cases in Augusta County.
+2022-08-17,,,Kansas,USA-20,deaths,yes,yes,0,Kansas removed 35 deaths after reviewing records.
+2022-08-17,2022-08-19,Alameda,California,USA-06001,deaths,yes,,0,Alameda added many deaths on Aug. 17 and removed many deaths on Aug. 19.
+2022-08-19,2022-08-24,Rockingham,Virginia,USA-51165,cases,yes,,0,Virginia removed many cases in the city of Harrisonburg and added many cases in Rockingham County.
+2022-08-19,2022-08-24,Harrisonburg city,Virginia,USA-51660,cases,yes,,0,Virginia removed many cases in the city of Harrisonburg and added many cases in Rockingham County.
