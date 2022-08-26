@@ -97741,7 +97741,6 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-08-25,USA-01003,Baldwin,Alabama,581,83,37.18,0,0,0
 2022-08-25,USA-01001,Autauga,Alabama,127,18.14,32.47,0,0,0
 2022-08-25,USA-60999,Unknown,American Samoa,0,0,,0,0,
-2022-08-25,USA-69999,Unknown,Northern Mariana Islands,0,14.5,,0,0.14,
 2022-08-25,USA-69120,Tinian,Northern Mariana Islands,0,0.29,9.11,0,0,0
 2022-08-25,USA-69110,Saipan,Northern Mariana Islands,0,11.43,23.7,0,0,0
 2022-08-25,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
